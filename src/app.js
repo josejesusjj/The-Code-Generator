@@ -1,7 +1,7 @@
 function GenerateDomain(){
-  let pronoun = ['the','our'];
-  let adj = ['grat','big'];
-  let noun = ['jogger','racoon'];
+  let pronoun = ['the','our','your','my','one'];
+  let adj = ['great','big','huge','best','super'];
+  let noun = ['jogger','racoon','fox','man','company','girl','site'];
   let domain = ['com','es','eu','net'];
 
   let pronounIndex = Math.floor(Math.random() * pronoun.length);
