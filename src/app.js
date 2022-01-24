@@ -1,11 +1,21 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
+function GenerateDomain(){
+  let pronoun = ['the','our'];
+  let adj = ['grat','big'];
+  let noun = ['jogger','racoon'];
+  let domain = ['com','es','eu','net'];
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+  let pronounIndex = Math.floor(Math.random() * pronoun.length);
+  let adjIndex = Math.floor(Math.random() * adj.length);
+  let nounIndex = Math.floor(Math.random() * noun.length);
+  let domainIndex = Math.floor(Math.random() * domain.length);
+  
+  return (
+    pronoun[pronounIndex] +
+  
+    adj[adjIndex] +
+   
+    noun[nounIndex] +
+    "." +
+    domain[domainIndex])}
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+console.log(GenerateDomain())
