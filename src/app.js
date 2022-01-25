@@ -1,21 +1,16 @@
-function GenerateDomain(){
-  let pronoun = ['the','our','your','my','one'];
-  let adj = ['great','big','huge','best','super'];
-  let noun = ['jogger','racoon','fox','man','company','girl','site'];
-  let domain = ['com','es','eu','net'];
+function domain() {
+    let a = ["nuestro","mi","tu"]
+    let b = ['piso','apartamento','chalet']
+    let c = [".com",".es",'.net']
 
-  let pronounIndex = Math.floor(Math.random() * pronoun.length);
-  let adjIndex = Math.floor(Math.random() * adj.length);
-  let nounIndex = Math.floor(Math.random() * noun.length);
-  let domainIndex = Math.floor(Math.random() * domain.length);
-  
-  return (
-    pronoun[pronounIndex] +
-  
-    adj[adjIndex] +
-   
-    noun[nounIndex] +
-    "." +
-    domain[domainIndex])}
-
-console.log(GenerateDomain())
+    for(i=0;i<a.length;i++){
+        for(j=0;j<b.length;j++){
+            for(k=0;k<c.length;k++){
+                console.log(a[i]+b[j]+c[k]);
+            }
+            
+        }
+       
+    }
+}
+console.log(domain());
