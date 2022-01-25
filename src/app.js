@@ -14,4 +14,4 @@ function domain() {
        
     }
 }
-console.log(domain());
+domain();
