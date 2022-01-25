@@ -8,10 +8,8 @@ function domain() {
         for(j=0;j<b.length;j++){
             for(k=0;k<c.length;k++){
                 console.log(a[i]+b[j]+c[k]);
-            }
-            
-        }
-       
+            }            
+        }       
     }
 }
 domain();
