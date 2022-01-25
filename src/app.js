@@ -1,3 +1,4 @@
+
 function domain() {
     let a = ["nuestro","mi","tu"]
     let b = ['piso','apartamento','chalet']
